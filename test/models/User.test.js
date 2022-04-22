@@ -33,7 +33,9 @@ describe("Unit test for user class", () => {
         //Instance a User
         const testUser = new User(222,'@JohnDoe','John Doe', 'Bio');
         //Test setters
-        expect(testUser.setUserName('newUser')).toBe('newUser')
-        expect(testUser.setBio('newBio')).toBe('newBio')
+        testUser.setUsername = 'newUser'
+        testUser.setBio = 'newBio'
+        expect(testUser.username).toBe('newUser')
+        expect(testUser.bio).toBe('newBio')
     });
 });
