@@ -12,7 +12,7 @@ describe("Unit test for user class", () => {
         expect(testUser.dateCreated).toBe('dateCreated')
         expect(testUser.lastUpdate).toBe('lastUpdate')
     });
-    test("", () => {
+    test("Validation of dateCreated and lastUpdate", () => {
         let testDate = new Date();
         //Instance a user
         const testUser = new User(222,'@JohnDoe','John Doe', 'Bio', testDate, testDate);
