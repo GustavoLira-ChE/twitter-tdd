@@ -16,5 +16,8 @@
     "tdd"
   ],
   "author": "Gustavo Lira",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.0"
+  }
 }
